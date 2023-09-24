@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
 
         fun getResponse(situation:String,callback: (String) -> Unit) {
-            val apiKey = "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"
+            val apiKey = "API_KEY"
             val url = "https://api.openai.com/v1/completions"
             val requestBody = """
             {
